@@ -1,0 +1,27 @@
+//challenge
+// add powerof divide miuns
+//Calculator
+
+const calculator ={
+    add: function(a, b) {
+        console.log(a, b);
+    },
+    minus: function(a, b) {
+        console.log(a - b)
+    },
+    divide: function(a, b){
+        console.log(a / b)
+    },
+    times: function(a, b){
+        console.log(a * b)
+    },
+    power: function(a, b){
+        console.log(a ** b)
+    }
+};
+
+calculator.add(5,1)
+calculator.minus(6,1)
+calculator.divide(6,3)
+calculator.times(5,6)
+calculator.power(6,9)
